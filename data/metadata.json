@@ -1,0 +1,69 @@
+{
+  "updated_at": "2026-04-30T11:50:17+00:00",
+  "refresh_interval_seconds": 1800,
+  "seed_count": 17,
+  "live_count": 0,
+  "total_count": 17,
+  "sources": [
+    {
+      "name": "jobs.ch Luzern Praktikum Administration",
+      "url": "https://www.jobs.ch/de/stellenangebote/?location=luzern&term=praktikum%20administration",
+      "kind": "generic"
+    },
+    {
+      "name": "jobs.ch Zug Praktikum Administration",
+      "url": "https://www.jobs.ch/de/stellenangebote/?location=zug&term=praktikum%20administration",
+      "kind": "generic"
+    },
+    {
+      "name": "jobs.ch Luzern Praktikum",
+      "url": "https://www.jobs.ch/de/stellenangebote/?location=luzern&term=praktikum",
+      "kind": "generic"
+    },
+    {
+      "name": "Indeed Kanton Zug Praktikum",
+      "url": "https://ch.indeed.com/q-praktikum-l-kanton-zug-jobs.html",
+      "kind": "generic"
+    },
+    {
+      "name": "Indeed Luzern Praktikum Administration",
+      "url": "https://ch.indeed.com/q-praktikum-administration-l-luzern%2C-lu-jobs.html",
+      "kind": "generic"
+    },
+    {
+      "name": "Praktikanten.ch Zug",
+      "url": "https://praktikanten.ch/praktikum-zug",
+      "kind": "generic"
+    },
+    {
+      "name": "Zentralschweiz Jobs Administration/Verwaltung",
+      "url": "https://zentralschweiz-jobs.ch/administration-verwaltung",
+      "kind": "generic"
+    },
+    {
+      "name": "CH Media Jobs",
+      "url": "https://chmedia.ch/jobs/",
+      "kind": "generic"
+    },
+    {
+      "name": "Kanton Zug Jobs",
+      "url": "https://www.zg.ch/jobs/offene-stellen",
+      "kind": "generic"
+    }
+  ],
+  "errors": {
+    "jobs.ch Luzern Praktikum Administration": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "jobs.ch Zug Praktikum Administration": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "jobs.ch Luzern Praktikum": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Indeed Kanton Zug Praktikum": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Indeed Luzern Praktikum Administration": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Praktikanten.ch Zug": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Zentralschweiz Jobs Administration/Verwaltung": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "CH Media Jobs": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Kanton Zug Jobs": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "note": "Cloud-PWA: funktioniert nach Hosting über HTTPS von überall. Datenaktualisierung erfolgt über GitHub Actions, nicht über den lokalen PC.",
+  "mode": "cloud_static_pwa",
+  "requires_local_pc": false,
+  "map_engine": "inline_svg_no_external_map_library"
+}
